@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          texto prueba
+          texto prueba - subido a gh-pages
         </p>
         <a
           className="App-link"
