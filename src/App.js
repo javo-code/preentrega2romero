@@ -1,15 +1,14 @@
 import './App.css';
 import ItemListContainer from './components/itemListContainer/ItemListContainer';
-import NavBar from  './components/navBar/NavBar'
-import Footer from './components/footer/Footer'
-//import Slider from '../components/Slider'
+import Footer from './components/footer/Footer';
+import NavBar from './components/navBar/NavBar';
 
 function App() {
   return (
-    <div className='app'>
-      <NavBar />
-      <ItemListContainer greeting={'BIENVENID@S !'} />
-      <Footer/>
+    <div className="App">
+      <NavBar/>
+      <ItemListContainer />
+      <Footer />
     </div>
   );
 }

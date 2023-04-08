@@ -1,4 +1,4 @@
-import logo from '../../img/logo.png';
+import logo from './logo.png';
 import './navBar.css'
 import '../cartWidget/Contador'
 import CartWidget from '../cartWidget/CartWidget'

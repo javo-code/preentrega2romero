@@ -1,19 +1,27 @@
-import "./itemListContainer.css";
-import Nutricion from "../productos/Nutricion";
-import Bombas from "../productos/Bombas";
-import Descartables from "../productos/Descartables";
+import { useEffect, useState } from "react";
+import showItems from "./showItems";
+import ItemList from "./ItemList";
+import './itemListContainer.css'
 
-function ItemListContainer({ greeting }) {
+const ItemListContainer = () => {
+
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+  
+    showItems()
+      .then((res) => {
+        setProducts(res);
+      })
+  },[])
+
+
   return (
-    <div>
-      <div className="contenedor-cards">
-        <h1 className="titulo bounce-in-bck">{greeting}</h1>
-        <Nutricion />
-        <Bombas />
-        <Descartables />
-      </div>
+    <div className="itemList-container">
+      <ItemList products={products} />
     </div>
-  );
-}
+  )
+};
+
 
 export default ItemListContainer;
