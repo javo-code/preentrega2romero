@@ -46,5 +46,100 @@
     "name": "Alterna",
     "description": " Pote x 1000 grs.",
     "price": "10.200"
+  },
+    {
+    "id": 7,
+    "category":"descartable",
+    "img": "assets/descartable-jeringa.jpg",
+    "name": "Jeringas",
+    "description": " Pote x 1000 grs.",
+    "price": "9.500"
+  },
+  {
+    "id": 8,
+    "category":"descartable",
+    "img": "assets/descartable-sets.jpg",
+    "name": "Sets",
+    "description": " Pote x 1000 grs.",
+    "price": "10.200"
+  },  {
+    "id": 9,
+    "category":"descartable",
+    "img": "assets/descartable-contenedor.jpg",
+    "name": "Contenedor",
+    "description": " Pote x 1000 grs.",
+    "price": "9.500"
+  },
+  {
+    "id": 6,
+    "category":"descartable",
+    "img": "assets/descartable-fisio.jpg",
+    "name": "Sol. Fisiologica",
+    "description": " Pote x 1000 grs.",
+    "price": "10.200"
+  },
+  {
+    "id": 5,
+    "category":"descartable",
+    "img": "assets/descartable-gasa.jpg",
+    "name": "Gasa No Tejida",
+    "description": " Pote x 1000 grs.",
+    "price": "9.500"
+  },
+  {
+    "id": 6,
+    "category":"descartable",
+    "img": "assets/descartable-heparina.jpg",
+    "name": "Heparina Sodica",
+    "description": " Pote x 1000 grs.",
+    "price": "10.200"
+  },
+  {
+    "id": 5,
+    "category":"bombas",
+    "img": "assets/bomba-epump.jpg",
+    "name": "Epump",
+    "description": " Pote x 1000 grs.",
+    "price": "9.500"
+  },
+  {
+    "id": 6,
+    "category":"bombas",
+    "img": "assets/bomba-angel.jpg",
+    "name": "Angel",
+    "description": " Pote x 1000 grs.",
+    "price": "300.000"
+  },
+  {
+    "id": 5,
+    "category":"bombas",
+    "img": "assets/bomba-asena.jpg",
+    "name": "Asena",
+    "description": " Pote x 1000 grs.",
+    "price": "420.000"
+  },
+  {
+    "id": 6,
+    "category":"bombas",
+    "img": "assets/bomba-comen.jpg",
+    "name": "AltComenerna",
+    "description": " Pote x 1000 grs.",
+    "price": "500.200"
+  },
+  {
+    "id": 5,
+    "category":"bombas",
+    "img": "assets/bomba-epump.jpg",
+    "name": "Epump",
+    "description": " Pote x 1000 grs.",
+    "price": "390.500"
+  },
+  {
+    "id": 6,
+    "category":"bombas",
+    "img": "assets/bomba-ningbo.jpg",
+    "name": "Ningbo",
+    "description": " Pote x 1000 grs.",
+    "price": "275.200"
   }
 ]
