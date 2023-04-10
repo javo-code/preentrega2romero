@@ -9,11 +9,11 @@ function NavBar() {
     <nav className='navBar'>
 
       <div className='contenedor-logo' >
-        <img
+<a href="../../../public/index.html">        <img
           className='logo'
           src={logo}
           alt='logo nueva medicina'
-        />
+        /></a>
       </div>
 
       <div className='contenedor-navBar' >
@@ -21,7 +21,6 @@ function NavBar() {
           <li><a href='#nutricion'>NUTRICION</a></li>
           <li><a href='#bombas'>BOMBAS DE INFUSION</a></li>
           <li><a href='#descartables'>DESCARTABLES</a></li>
-          <li><a href='#descartables'>INGRESAR</a></li>
         </ul>
         
       </div>

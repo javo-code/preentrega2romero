@@ -1,0 +1,11 @@
+.card-container {
+    display: inline-block;
+    width: fit-content;
+    margin: 2em;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.card-img-container {
+    width: 300px;
+    height: 300px;
+}

@@ -8,7 +8,7 @@
   display: flex;
   justify-content: flex-end ;
   margin: 5% 10% 2% 2%;
-  background-color: #fff;
+  background-color:rgb(244, 244, 244);
   gap:5%
 }
 
@@ -36,15 +36,16 @@
   font-size: 12px;
   display: flex;
   align-items: center;
+  color: #000;
 }
 
 .contenedor-btnAddToCart{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin: 5%
 }
 
-.addToCart{
+.btn-addToCart{
   width: 75%;
   height: 20px;
   display: flex;

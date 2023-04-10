@@ -1,16 +1,9 @@
-import Item from "./Item";
+import Item from "./item/Item";
 
-const ItemList = ( { products } ) => {
+const ItemList = ( {products} ) => {
   return (
-    <div>
-      {
-        products.length > 0 &&
-        products.map((product) => {
-          return (
-        <Item key={product.id} product={product}/>
-          )
-        })
-      }
+    <div className="ListGorup">
+      {products.map(prod => <Item key={prod.id}{...prod}/>)}
     </div>
   )
 };
