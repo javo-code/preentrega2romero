@@ -1,4 +1,3 @@
-import ItemCounter from "./ItemCounter";
 import "./item.css";
 
 const Item = ({ id, name, img, price, stock }) => {
@@ -20,9 +19,10 @@ const Item = ({ id, name, img, price, stock }) => {
         <p className="Info">
           Stock Disponible: {stock}
         </p>
-        <ItemCounter initial={0} stock={10} onAdd={(quantity) => console.log(quantity)} />
       </section>
-      
+      <footer className="ItemFooter">
+        <link to={`/ìtem/${id}`} className="Option"></link>
+      </footer>
     </article>
   );
 };

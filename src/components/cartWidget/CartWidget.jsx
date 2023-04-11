@@ -1,5 +1,4 @@
 import CarritoIco from './carrito-blanco.png'
-import Contador from './Contador';
 import './estilosCarrito.css';
 
 function CartWidget() {

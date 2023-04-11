@@ -4,6 +4,10 @@ padding: 0;
 box-sizing: border-box;
 }
 
+.contendor-icono-carrito{
+  width: 25px;
+}
+
 .boton-carrito{
   display: flex;
   justify-content: center;
