@@ -36,11 +36,6 @@ const NavBar = () => {
           DESCARTABLES
         </NavLink>
 
-        {/*   <ul class='menu'>
-          <li><a href='#nutricion'>NUTRICION</a></li>
-          <li><a href='#bombas'>BOMBAS DE INFUSION</a></li>
-          <li><a href='#descartables'>DESCARTABLES</a></li>
-        </ul> */}
       </div>
       <CartWidget />
       <Contador />
