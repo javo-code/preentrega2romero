@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import './btnCard.css';
+import './itemCount.css';
 import CarritoIco from './carrito-naranja.png'
 
-const ItemCounter = ({ stock, initial, onAdd })=> {
+const ItemCount = ({ stock, initial, onAdd })=> {
   const [quantity, setQuantity] = useState(initial)
 
   const increment = () => {
@@ -30,7 +30,7 @@ const ItemCounter = ({ stock, initial, onAdd })=> {
     <div className='contenedor-btnAddToCart'>
       <button className='btn-addToCart' onclick={() => onAdd(quantity)} disbled={!stock}>
         <img className='cart' src={CarritoIco} alt='carrito blanco con signo sumar' />
-        <p>Agregar al carrito</p>
+        Agregar al carrito
       </button>
     </div>
       
@@ -39,4 +39,4 @@ const ItemCounter = ({ stock, initial, onAdd })=> {
   );
 }
 
-export default ItemCounter;
+export default ItemCount;

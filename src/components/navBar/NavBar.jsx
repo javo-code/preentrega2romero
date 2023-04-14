@@ -1,46 +1,28 @@
-import logo from "./logo.png";
-import "./navBar.css";
-import "../cartWidget/Contador";
-import CartWidget from "../cartWidget/CartWidget";
-import Contador from "../cartWidget/Contador";
-import { NavLink, Link } from "react-router-dom";
+import logo from '../../img/logo.png';
+import './navBar.css';
+import './Contador';
+import CartWidget from '../cartWidget/CartWidget';
+import Contador from './Contador';
+import { NavLink, Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className="navBar">
-      <Link to="/">
-        <div className="contenedor-logo">
-          <a href="../../../public/index.html">
-            <img src={logo} alt="logo" className="logo" />
-          </a>
-        </div>
-      </Link>
-
-      <div className="contenedor-navBar categories">
-        <NavLink
-          to={`/category/nutrition`}
-          className={({ isActive }) => (isActive ? "ActiveOpcion" : "Option")}
-        >
-          NUTRICION
-        </NavLink>
-        <NavLink
-          to={`/category/bombs`}
-          className={({ isActive }) => (isActive ? "ActiveOpcion" : "Option")}
-        >
-          BOMBAS
-        </NavLink>
-        <NavLink
-          to={`/category/disposables`}
-          className={({ isActive }) => (isActive ? "ActiveOpcion" : "Option")}
-        >
-          DESCARTABLES
-        </NavLink>
-
+    <nav className='NavBar'>
+      <Link to='/'>
+        <img
+          className='logo'
+          src={logo}
+          alt='logo nueva medicina' />
+      </Link> 
+      <div className="Categories">
+        <NavLink to={`/category/nutrition`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Nutrición Enteral</NavLink>
+        <NavLink to={`/category/deponsables`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Artículos Descartales</NavLink>
+        <NavLink to={`/category/bombs`} className={({isActive})=> isActive ? 'ActiveOption':'Option'}>Bombas de Infusón</NavLink>
       </div>
       <CartWidget />
       <Contador />
-    </nav>
-  );
-};
+</nav>
+  )
+} 
 
 export default NavBar;

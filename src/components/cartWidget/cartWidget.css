@@ -4,10 +4,6 @@ padding: 0;
 box-sizing: border-box;
 }
 
-.contendor-icono-carrito{
-  width: 25px;
-}
-
 .boton-carrito{
   display: flex;
   justify-content: center;
@@ -24,11 +20,11 @@ box-sizing: border-box;
   transition: 0.8s;
 }
 
-.icono-carrito {
+.icono-carrito{
 padding-left: 6px;
 margin-right: 5px;
 height: 15px;
-
+color: #fff;
 }
 
 .contador-carrito{

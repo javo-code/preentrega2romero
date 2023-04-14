@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category": "nutrition",
+    "img": "../../img/nutrilon.jpg",
+    "name": "Nutrilon",
+    "price": 9000,
+    "description": " Pote x 1000 grs."
+  },
+  {
+    "id": 2,
+    "category": "nutrition",
+    "img": "../../img/ensure.jpg",
+    "name": "Ensure",
+    "price": "9.000",
+    "description": " Pote x 1000 grs."
+  },
+  {
+    "id": 3,
+    "category": "nutricion",
+    "img": "../../img/lactoproteyn.jpg",
+    "name": "Lactoproteyn",
+    "price": "7.000",
+    "description": " Pote x 1000 grs."
+  },
+  {
+    "id": 4,
+    "category": "nutricion",
+    "img": "../../img/alfare.jpg",
+    "name": "Alfare",
+    "price": "10.000",
+    "description": " Pote x 1000 grs."
+  },
+  {
+    "id": 5,
+    "category": "nutricion",
+    "img": "../../img/fresubin.jpg",
+    "title": "Fresubin",
+    "price": "9.500",
+    "description": " Pote x 1000 grs."
+  },
+  {
+    "id": 6,
+    "category": "nutricion",
+    "img": "../../img/alterna.jpg",
+    "name": "Alterna",
+    "price": "9.500",
+    "description": " Pote x 1000 grs."
+  }
+]

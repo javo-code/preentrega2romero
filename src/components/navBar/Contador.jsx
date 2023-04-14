@@ -1,4 +1,4 @@
-import '../cartWidget/estilosCarrito.css';
+import '../cartWidget/cartWidget.css';
 
 function Contador({ numClics }) {
   
