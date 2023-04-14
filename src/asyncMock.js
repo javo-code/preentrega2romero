@@ -14,7 +14,7 @@ import Bomb1 from "./img/bomba-epump.jpg";
 import Bomb2 from "./img/bomba-angel.jpg";
 import Bomb3 from "./img/bomba-asena.jpg";
 import Bomb4 from "./img/bomba-comen.jpg";
-import Bomb5 from "./img/bomba-epump.jpg";
+import Bomb5 from "./img/bomba-samtronic.jpg";
 import Bomb6 from "./img/bomba-ningbo.jpg";
 
 const products = [
@@ -164,7 +164,7 @@ const products = [
   },
   {
     id: "17",
-    name: "Epump",
+    name: "Samtronic",
     price: "390.500",
     category: "bombs",
     img: Bomb5,
