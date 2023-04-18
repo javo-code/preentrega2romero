@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/preentrega2romero/static/css/main.9c1a07e6.css",
-    "main.js": "/preentrega2romero/static/js/main.1609d6a4.js",
+    "main.css": "/preentrega2romero/static/css/main.f721dac4.css",
+    "main.js": "/preentrega2romero/static/js/main.038d8e50.js",
     "static/media/descartable-heparina.jpg": "/preentrega2romero/static/media/descartable-heparina.8f3bda1ae2f135cd5b4b.jpg",
     "static/media/descartable-fisio.jpg": "/preentrega2romero/static/media/descartable-fisio.05758cf56526e14dbdcc.jpg",
     "static/media/bomba-ningbo.jpg": "/preentrega2romero/static/media/bomba-ningbo.203aa97257646316a1d8.jpg",
@@ -16,11 +16,11 @@
     "static/media/bomba-samtronic.jpg": "/preentrega2romero/static/media/bomba-samtronic.4d6522af765e3fdff929.jpg",
     "static/media/logo.png": "/preentrega2romero/static/media/logo.09b9f799ce1601312ec9.png",
     "index.html": "/preentrega2romero/index.html",
-    "main.9c1a07e6.css.map": "/preentrega2romero/static/css/main.9c1a07e6.css.map",
-    "main.1609d6a4.js.map": "/preentrega2romero/static/js/main.1609d6a4.js.map"
+    "main.f721dac4.css.map": "/preentrega2romero/static/css/main.f721dac4.css.map",
+    "main.038d8e50.js.map": "/preentrega2romero/static/js/main.038d8e50.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c1a07e6.css",
-    "static/js/main.1609d6a4.js"
+    "static/css/main.f721dac4.css",
+    "static/js/main.038d8e50.js"
   ]
 }
