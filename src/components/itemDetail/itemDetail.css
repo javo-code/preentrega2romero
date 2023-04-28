@@ -1,6 +1,7 @@
 
-.CardDetailContainer {
+.CardItemDetailContainer {
     display: flex;
+    flex-direction: column;
     width: fit-content;
     margin: 2em;
     padding: 2em;
@@ -8,35 +9,22 @@
     background-color: #fff;
     }
 
-section{
-    display: flex;
-    flex-direction: column;
-}
 
-.HeaderDetail{
+.CardItemDetailHeader{
     display: flex;
     justify-content: center;
     font-size: 2rem;
 }
 
-.ItemDetailImg {
-height: 30rem;
+.CardItemDetailImg {
+height: fit-content;
 }
 
-.secc2{
-    display: flex;
-    gap: 2em;
-}
-
-.secc2 p{
-    font-size: 18px;
-}
-
-.InfoDescriptionDetail{
+.InfoDescriptionDetail {
     max-width: 200px;
 }
 
-.ItemDetailFooter{
+.CardItemFooter {
     display: flex;
     justify-content: center;
     width: 100%;

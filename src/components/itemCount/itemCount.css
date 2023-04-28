@@ -68,6 +68,12 @@ justify-content: center;
   cursor: pointer;
 }
 
+.btn-addToCart:hover{
+  transform: scale(1.1);
+    transition: 0.8s;
+      box-shadow: 2px 3px 3px black;
+}
+
 .cart{
   width: 40px;
   height: 40px;

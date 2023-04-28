@@ -28,7 +28,7 @@ const ItemCount = ({ stock, initial, onAdd })=> {
     </div>
     {/* ADDTOCART BUTON */}
     <div className='contenedor-btnAddToCart'>
-      <button className='btn-addToCart' onclick={() => onAdd(quantity)} disbled={!stock}>
+      <button className='btn-addToCart' onClick={() => onAdd(quantity)} disabled={!stock}>
         <img className='cart' src={CarritoIco} alt='carrito blanco con signo sumar' />
         Agregar al carrito
       </button>

@@ -2,7 +2,7 @@ import logo from '../../img/logo.png';
 import './navBar.css';
 import './Contador';
 import CartWidget from '../cartWidget/CartWidget';
-import Contador from './Contador';
+import Contador from './Contador';  
 import { NavLink, Link } from 'react-router-dom';
 
 const NavBar = () => {

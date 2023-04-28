@@ -1,22 +1,35 @@
 import "./itemDetail.css";
 import ItemCount from "../itemCount/ItemCount";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { CartContext } from "../context/CartContext";
 
-const ItemDetail = ({ name, img, category, description, price, stock }) => {
+const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
+  const [quantityAdded, setQuantityAdded] = useState(0)
   
-  return (
-    <article className="CardDetailContainer">
+  const { addItem } = useState(CartContext);
 
-      <section className="secc1">
-        <headeer className="HeaderDetail">
-        <h2 className="ItemDetailHeader">
+  const handleOnAdd = (quantity) => {
+    setQuantityAdded(quantity)
+
+    const item = {
+      id, name, price
+    }
+
+    addItem(item, quantity);
+  }
+
+  return (
+    <article className="CardItemDetailContainer ">
+      <header className="CardItemDetailHeader ItemHeader">
+        <h2 className="CardItemDetailHeader ItemHeader">
           {name}
         </h2>
-      </headeer>
+      </header>
       <picture>
-        <img src={img} alt={name} className="ItemDetailImg" />
+        <img src={img} alt={name} className="CardItemDetailImg" />
       </picture>
-      </section>
-      <section className="secc2">
+      <section>
         <p className="InfoCategoryDetail">
           <b>Categoria:</b> {category}
         </p>
@@ -26,12 +39,20 @@ const ItemDetail = ({ name, img, category, description, price, stock }) => {
         <p className="InfoPriceDetail">
           <b>Precio: </b>${price}
         </p>
-      <footer className="ItemDetailFooter">
-        <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log(quantity)} />
-      </footer>
       </section>
+      <footer className="CardItemFooter">
+        {
+          quantityAdded > 0 ? (
+            <Link to='/cart' className='Option'>Terminar compra</Link>
+          ) : (
+            <ItemCount initial={1} stock={stock} onAdd={handleOnAdd} />
+          )
+        }
+      </footer>
     </article>
-  );
+
+  )
+
 };
 
-export default ItemDetail;
+export default ItemDetail; 

@@ -6,6 +6,12 @@
     background-color: #fff;
 }
 
+.card-container:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    box-shadow: 2px 3px 3px black;
+}
+
 .card-container p {
     padding: 3% 2% 0 6%;
 }
@@ -13,6 +19,12 @@
 .card-container .ItemFooter{
 display: flex;
 justify-content: center;
+}
+
+.BtnVerDetalle {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #09ba09;
 }
 
 button:hover{
@@ -37,4 +49,13 @@ footer .ItemFooter {
 
 .card-container .ItemFooter{
     padding: 5%;
+}
+
+.BtnCard{
+    text-decoration: none;
+    color: #fff;
+}
+
+.BtnCard:hover {
+    color: #fff;
 }
