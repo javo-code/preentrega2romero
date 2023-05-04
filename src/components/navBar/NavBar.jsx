@@ -1,8 +1,6 @@
 import logo from '../../img/logo.png';
 import './navBar.css';
-import './Contador';
 import CartWidget from '../cartWidget/CartWidget';
-import Contador from './Contador';  
 import { NavLink, Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -20,7 +18,6 @@ const NavBar = () => {
         <NavLink to={`/category/bombs`} className={({isActive})=> isActive ? 'ActiveOption':'Option'}>Bombas de Infusón</NavLink>
       </div>
       <CartWidget />
-      <Contador />
 </nav>
   )
 } 
