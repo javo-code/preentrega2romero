@@ -13,7 +13,8 @@ background-color: rgb(244, 244, 244);
     justify-content: center;
 }
 
-.EmptyCartMsn{
+.Loading {display: flex;
+    justify-content: center;
     font-size: 3rem;
     margin-bottom: 3%;
 }

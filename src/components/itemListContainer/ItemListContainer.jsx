@@ -31,7 +31,6 @@ const ItemListContainer = ({ greeting }) => {
         console.log(error)
       })
       .finally(() => {
-        console.log('After query');
         setLoading(false)
       })
   }, 500);
@@ -40,18 +39,18 @@ const ItemListContainer = ({ greeting }) => {
 
 
   return (
-    <>
+    <div className="">
       <div>
         <h1 className="titulo bounce-in-bck">{greeting}</h1>
       </div>
       {loading ? (
-        <div className="EmptyCartMsn">Cargando productos...</div>
+        <div className="Loading">Cargando productos...</div>
       ) : (
         <div className="ItemListContainer">
           <ItemList products={products} />
         </div>
       )}
-    </>
+    </div>
   );
 };
 

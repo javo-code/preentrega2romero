@@ -3,7 +3,7 @@ import { CartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";
 import "./cartItem.css";
 
-const CartItem = ({ id, img, name, price, quantity, subtotal }) => {
+const CartItem = ({ id, img, name, price, quantity }) => {
   const { removeItem } = useContext(CartContext);
 
   const handleRemove = () => {
@@ -21,7 +21,7 @@ const CartItem = ({ id, img, name, price, quantity, subtotal }) => {
             <form id="procesar-pago" method="POST">
               <div className="form-group row">
                 <label
-                  for="cliente"
+                  htmlFor="cliente"
                   className="col-12 col-md-2 col-form-label h2"
                 >
                   Cliente :
@@ -38,7 +38,7 @@ const CartItem = ({ id, img, name, price, quantity, subtotal }) => {
               </div>
               <div className="form-group row">
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="col-12 col-md-2 col-form-label h2"
                 >
                   Correo :
@@ -46,7 +46,7 @@ const CartItem = ({ id, img, name, price, quantity, subtotal }) => {
                 <div className="col-12 col-md-10">
                   <input
                     type="text"
-                    id="correo email.id"
+                    id="correo"
                     className="form-control"
                     name="email.id"
                   />
@@ -66,25 +66,28 @@ const CartItem = ({ id, img, name, price, quantity, subtotal }) => {
                   </thead>
 
                   <tbody>
-                    <td scope="col">{img}</td>
-                    <td scope="col">{name}</td>
-                    <td scope="col">{price}</td>
-                    <td scope="col">{price * quantity}</td>
-                    <td scope="col">{quantity}</td>
-                    <td scope="col">{subtotal}</td>
-                    <button
-                      className="btn btn-danger botonEliminar"
-                      onClick={handleRemove}
-                    >
-                      X
-                    </button>
+                    <tr>
+                      <td><img src={img} alt="" /></td>
+                      <td>{name}</td>
+                      <td>$ {price},00</td>
+                      <td>{quantity}</td>
+                      <td>$ {price * quantity},00</td>
+                      <td>
+                        <button
+                          className="btn btn-danger botonEliminar"
+                          onClick={handleRemove}
+                        >
+                          X
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th colSpan="4" scope="col" className="text-right">
+                        TOTAL
+                        <p id="totalProceso"></p>
+                      </th>
+                    </tr>
                   </tbody>
-                  <tr>
-                    <th colspan="4" scope="col" className="text-right">
-                      TOTAL
-                      <p id="totalProceso"></p>
-                    </th>
-                  </tr>
                 </table>
               </div>
 
@@ -101,13 +104,16 @@ const CartItem = ({ id, img, name, price, quantity, subtotal }) => {
                     Seguir comprando
                   </Link>
                 </div>
+
                 <div className="col-xs-12 col-md-4">
-                  <input
-                    type="submit"
-                    className="btn btn-success btn-block end-purchase"
-                    id="button"
-                    value="Finalizar compra"
-                  />
+                  <div className="col-md-4 mb-2">
+                    <Link
+                      to="/checkout"
+                      className="btn btn-info btn-block btn-kepBuying"
+                    >
+                      Finalizar Compra
+                    </Link>
+                  </div>
                 </div>
               </div>
             </form>

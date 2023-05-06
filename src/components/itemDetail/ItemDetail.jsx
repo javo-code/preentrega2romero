@@ -10,19 +10,19 @@ const ItemDetail = ({ id, name, img, description, price, stock }) => {
   const { addItem } = useContext(CartContext);
 
   const handleOnAdd = (quantity) => {
-    setQuantityAdded(quantity)
+    setQuantityAdded(quantity);
 
-  const item = {
-      id, name, price
-    }
+    const item = {
+      id, name, price, img
+    };
 
-  addItem(item, quantity);
-  }
+    addItem(item, quantity);
+  };
 
   return (
     <article className="CardItemDetailContainer ">
-      <header className="CardItemDetailHeader ItemHeader">
-        <h2 className="CardItemDetailHeader ItemHeader">
+      <header className="CardItemDetailHeader">
+        <h2 className="CardItemDetailHeader">
           {name}
         </h2>
       </header>
@@ -48,7 +48,7 @@ const ItemDetail = ({ id, name, img, description, price, stock }) => {
       </footer>
     </article>
 
-  )
+  );
 
 };
 
