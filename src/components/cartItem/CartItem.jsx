@@ -3,7 +3,7 @@ import { CartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";
 import "./cartItem.css";
 
-const CartItem = ({ id, img, name, price, quantity }) => {
+const CartItem = ({ id, img, name, price, quantity, category }) => {
   const { removeItem } = useContext(CartContext);
 
   const handleRemove = () => {
@@ -59,6 +59,7 @@ const CartItem = ({ id, img, name, price, quantity }) => {
                     <tr>
                       <th scope="col">Imagen</th>
                       <th scope="col">Nombre</th>
+                      <th scope="col">Categoría</th>
                       <th scope="col">Precio</th>
                       <th scope="col">Cantidad</th>
                       <th scope="col">Sub Total</th>
@@ -69,6 +70,7 @@ const CartItem = ({ id, img, name, price, quantity }) => {
                     <tr>
                       <td><img src={img} alt="" /></td>
                       <td>{name}</td>
+                      <td>{category}</td>
                       <td>$ {price},00</td>
                       <td>{quantity}</td>
                       <td>$ {price * quantity},00</td>
@@ -80,12 +82,6 @@ const CartItem = ({ id, img, name, price, quantity }) => {
                           X
                         </button>
                       </td>
-                    </tr>
-                    <tr>
-                      <th colSpan="4" scope="col" className="text-right">
-                        TOTAL
-                        <p id="totalProceso"></p>
-                      </th>
                     </tr>
                   </tbody>
                 </table>
@@ -100,7 +96,7 @@ const CartItem = ({ id, img, name, price, quantity }) => {
 
               <div className="row justify-content-between">
                 <div className="col-md-4 mb-2">
-                  <Link to="/" className="btn btn-info btn-block btn-kepBuying">
+                  <Link to="/" className="btn btn-success btn-block btn-kepBuying">
                     Seguir comprando
                   </Link>
                 </div>
@@ -108,7 +104,7 @@ const CartItem = ({ id, img, name, price, quantity }) => {
                 <div className="col-xs-12 col-md-4">
                   <div className="col-md-4 mb-2">
                     <Link
-                      to="/checkout"
+                      to="/checkoutform"
                       className="btn btn-info btn-block btn-kepBuying"
                     >
                       Finalizar Compra
