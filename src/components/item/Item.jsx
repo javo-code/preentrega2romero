@@ -15,7 +15,7 @@ const Item = ({ id, name, img, price, stock }) => {
       </picture>
       <section>
         <p className="Info-price">
-          Precio: ${price},00
+          Precio: ${price}
         </p>
         <p className="Info-stock">
           Stock Disponible: {stock}

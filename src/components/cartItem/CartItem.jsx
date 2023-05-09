@@ -19,40 +19,7 @@ const CartItem = ({ id, img, name, price, quantity, category }) => {
               Realizar Compra
             </h2>
             <form id="procesar-pago" method="POST">
-              <div className="form-group row">
-                <label
-                  htmlFor="cliente"
-                  className="col-12 col-md-2 col-form-label h2"
-                >
-                  Cliente :
-                </label>
-                <div className="col-12 col-md-10">
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="cliente"
-                    placeholder="Ingresa nombre cliente"
-                    name="persona"
-                  />
-                </div>
-              </div>
-              <div className="form-group row">
-                <label
-                  htmlFor="email"
-                  className="col-12 col-md-2 col-form-label h2"
-                >
-                  Correo :
-                </label>
-                <div className="col-12 col-md-10">
-                  <input
-                    type="text"
-                    id="correo"
-                    className="form-control"
-                    name="email.id"
-                  />
-                </div>
-              </div>
-
+              
               <div id="carrito" className="form-group table-responsive">
                 <table className="table" id="lista-compra">
                   <thead>
@@ -71,9 +38,9 @@ const CartItem = ({ id, img, name, price, quantity, category }) => {
                       <td><img src={img} alt="" /></td>
                       <td>{name}</td>
                       <td>{category}</td>
-                      <td>$ {price},00</td>
+                      <td>$ {price}</td>
                       <td>{quantity}</td>
-                      <td>$ {price * quantity},00</td>
+                      <td>$ {price * quantity}</td>
                       <td>
                         <button
                           className="btn btn-danger botonEliminar"
@@ -104,7 +71,7 @@ const CartItem = ({ id, img, name, price, quantity, category }) => {
                 <div className="col-xs-12 col-md-4">
                   <div className="col-md-4 mb-2">
                     <Link
-                      to="/checkoutform"
+                      to="/cartModal"
                       className="btn btn-info btn-block btn-kepBuying"
                     >
                       Finalizar Compra
