@@ -1,0 +1,17 @@
+.Container {
+    justify-content: center;
+}
+
+.Form{
+    padding: 1em;
+    gap: 1em;
+}
+
+.Input{
+    margin: 1em;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+}

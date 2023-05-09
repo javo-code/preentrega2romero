@@ -74,7 +74,7 @@ const CartItem = ({ id, img, name, price, quantity, category }) => {
                       to="/cartModal"
                       className="btn btn-info btn-block btn-kepBuying"
                     >
-                      Finalizar Compra
+                      Ver carrito
                     </Link>
                   </div>
                 </div>

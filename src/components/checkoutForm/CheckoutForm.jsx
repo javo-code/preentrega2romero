@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom';
+import './checkoutForm.css'
 
 const CheckoutForm = ({ onConfirm }) => {
   const [name, setName] = useState("");
@@ -46,8 +47,8 @@ const CheckoutForm = ({ onConfirm }) => {
         <div className="label">
           <button type="submit" className="Button">
             <Link
-              to="/cartModal"
-              className="btn btn-info btn-block btn-kepBuying"
+              to="/checkout"
+              className="btn btn-block btn-kepBuying"
             >
               Crear Orden
             </Link>

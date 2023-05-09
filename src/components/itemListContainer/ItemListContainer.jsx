@@ -37,7 +37,6 @@ const ItemListContainer = ({ greeting }) => {
 
 }, [categoryId]);
 
-
   return (
     <div className="">
       <div>
