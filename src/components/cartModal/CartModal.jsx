@@ -20,7 +20,7 @@ const CartModal = () => {
   return (
     <div className="cart-modal">
       <div className="cart-modal-content">
-        <div className="cart-modal-header">
+        <div className="cart-modal-header d-flex">
           <h2>Carrito de compras</h2>
           <button className="close-btn" onClick={handleCloseModal}>
             <Link to="/cart">X</Link>

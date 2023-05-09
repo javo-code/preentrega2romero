@@ -1,8 +1,8 @@
-.Container {
+.Container {display: flex;
     justify-content: center;
 }
 
-.Form{
+.UserData{
     padding: 1em;
     gap: 1em;
 }
