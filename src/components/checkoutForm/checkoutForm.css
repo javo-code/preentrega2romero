@@ -15,3 +15,9 @@
     display: flex;
     justify-content: center;
 }
+
+.label-submit a{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}

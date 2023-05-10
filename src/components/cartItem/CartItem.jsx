@@ -19,14 +19,12 @@ const CartItem = ({ id, img, name, price, quantity, category }) => {
               Realizar Compra
             </h2>
             <form id="procesar-pago" method="POST">
-              
               <div id="carrito" className="form-group table-responsive">
                 <table className="table" id="lista-compra">
                   <thead>
                     <tr>
                       <th scope="col">Imagen</th>
                       <th scope="col">Nombre</th>
-                      <th scope="col">Categoría</th>
                       <th scope="col">Precio</th>
                       <th scope="col">Cantidad</th>
                       <th scope="col">Sub Total</th>
@@ -35,9 +33,10 @@ const CartItem = ({ id, img, name, price, quantity, category }) => {
 
                   <tbody>
                     <tr>
-                      <td><img src={img} alt="" /></td>
+                      <td>
+                        <img src={img} alt="" />
+                      </td>
                       <td>{name}</td>
-                      <td>{category}</td>
                       <td>$ {price}</td>
                       <td>{quantity}</td>
                       <td>$ {price * quantity}</td>
@@ -63,7 +62,10 @@ const CartItem = ({ id, img, name, price, quantity, category }) => {
 
               <div className="row justify-content-between">
                 <div className="col-md-4 mb-2">
-                  <Link to="/" className="btn btn-success btn-block btn-kepBuying">
+                  <Link
+                    to="/"
+                    className="btn btn-success btn-block btn-kepBuying"
+                  >
                     Seguir comprando
                   </Link>
                 </div>
@@ -74,7 +76,7 @@ const CartItem = ({ id, img, name, price, quantity, category }) => {
                       to="/cartModal"
                       className="btn btn-info btn-block btn-kepBuying"
                     >
-                      Ver carrito
+                      Ver resumen
                     </Link>
                   </div>
                 </div>

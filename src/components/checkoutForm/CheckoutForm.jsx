@@ -44,8 +44,8 @@ const CheckoutForm = ({ onConfirm }) => {
             onChange={({ target }) => setEmail(target.value)}
           />
         </label>
-        <div className="label">
-          <button type="submit" className="Button">
+        <div className="label label-submit">
+          <button href='../checkout/Checkout.jsx' type="submit" className="Button">
             <Link
               to="/checkout"
               className="btn btn-block btn-kepBuying"

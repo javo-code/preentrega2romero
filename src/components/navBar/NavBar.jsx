@@ -1,6 +1,7 @@
 import logo from '../../img/logo.png';
 import './navBar.css';
 import CartWidget from '../cartWidget/CartWidget';
+import CategoryMenu from '../categoryMenu/CategoryMenu';
 import { NavLink, Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -11,11 +12,10 @@ const NavBar = () => {
           className='logo'
           src={logo}
           alt='logo nueva medicina' />
-      </Link> 
-      <div className="Categories">
-        <NavLink to={`/category/nutrition`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Nutrición Enteral</NavLink>
-        <NavLink to={`/category/deponsables`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Artículos Descartales</NavLink>
-        <NavLink to={`/category/bombs`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Bombas de Infusión</NavLink>
+      </Link>
+      <NavLink to={`/`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Inicio</NavLink>
+      <div className="CategoryMenu">
+        <CategoryMenu />
       </div>
       <CartWidget />
 </nav>
