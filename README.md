@@ -4,7 +4,7 @@ Este es un e-commerce que te permitirá navegar por diferentes categorías de pr
 
 ## Categorías
 
-Contamos con una amplia variedad de categorías de productos, para que puedas encontrar lo que necesites de manera **fácil y rápida**. Puedes navegar por ellas en nuestra página principal y hacer clic en la categoría que te interese para ver los productos disponibles.
+Contamos con una amplia variedad de categorías de pgit statusroductos, para que puedas encontrar lo que necesites de manera **fácil y rápida**. Puedes navegar por ellas en nuestra página principal y hacer clic en la categoría que te interese para ver los productos disponibles.
 
 ## Carrito
 
