@@ -4,7 +4,7 @@ Este es un e-commerce que te permitirá navegar por diferentes categorías de pr
 
 ## Categorías
 
-Contamos con una amplia variedad de categorías de pgit statusroductos, para que puedas encontrar lo que necesites de manera **fácil y rápida**. Puedes navegar por ellas en nuestra página principal y hacer clic en la categoría que te interese para ver los productos disponibles.
+Contamos con una amplia variedad de categorías de productos, para que puedas encontrar lo que necesites de manera **fácil y rápida**. Puedes navegar por ellas en nuestra página principal y hacer clic en la categoría que te interese para ver los productos disponibles.
 
 ## Carrito
 
@@ -12,7 +12,7 @@ Cuando encuentres un producto que te guste, simplemente agrégalo a tu carrito h
 
 ## Compra
 
-Cuando hayas terminado de agregar productos a tu carrito, podrás finalizar tu compra haciendo clic en el botón "Comprar". Serás **redirigido a una página** donde podrás revisar el detalle de tu compra y completar los datos necesarios para efectuar el pago.
+Cuando hayas terminado de agregar productos a tu carrito, podrás finalizar tu compra haciendo clic en el botón "Finalizar comprar". Serás **redirigido a una página** donde podrás revisar el detalle de tu compra y completar los datos necesarios para efectuar el pago.
 
 ## Comprobante de compra
 
@@ -20,6 +20,6 @@ Una vez realizada la compra, podrás generar un comprobante de la misma. Este do
 
 Gracias por elegir nuestro e-commerce. ¡Que disfrutes tu compra!
 
----
+## AUTOR
 
-Este archivo README.md fue creado por Fernando Romero.
+Fernando Romero.
