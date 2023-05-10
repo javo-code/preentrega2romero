@@ -20,6 +20,4 @@ Una vez realizada la compra, podrás generar un comprobante de la misma. Este do
 
 Gracias por elegir nuestro e-commerce. ¡Que disfrutes tu compra!
 
-## AUTOR
-
-Fernando Romero.
+## AUTOR - Fernando Romero.
