@@ -1,26 +1,15 @@
 {
   "files": {
-    "main.css": "/preentrega2romero/static/css/main.f721dac4.css",
-    "main.js": "/preentrega2romero/static/js/main.038d8e50.js",
-    "static/media/descartable-heparina.jpg": "/preentrega2romero/static/media/descartable-heparina.8f3bda1ae2f135cd5b4b.jpg",
-    "static/media/descartable-fisio.jpg": "/preentrega2romero/static/media/descartable-fisio.05758cf56526e14dbdcc.jpg",
-    "static/media/bomba-ningbo.jpg": "/preentrega2romero/static/media/bomba-ningbo.203aa97257646316a1d8.jpg",
-    "static/media/descartable-sets.jpg": "/preentrega2romero/static/media/descartable-sets.e20c47142b443154bd79.jpg",
-    "static/media/bomba-epump.jpg": "/preentrega2romero/static/media/bomba-epump.84eb38cc8ab95139fd11.jpg",
-    "static/media/descartable-gasa.jpg": "/preentrega2romero/static/media/descartable-gasa.fb22e4ee2f78975c8f1a.jpg",
-    "static/media/ensure.jpg": "/preentrega2romero/static/media/ensure.e832b52cefe245a53f00.jpg",
-    "static/media/lactoproteyn.jpg": "/preentrega2romero/static/media/lactoproteyn.eecca424ef8a00347b23.jpg",
-    "static/media/bomba-asena.jpg": "/preentrega2romero/static/media/bomba-asena.2c05f73718fd0ee539da.jpg",
-    "static/media/alfare.jpg": "/preentrega2romero/static/media/alfare.22c04202b74598f5116c.jpg",
-    "static/media/nutrilon.jpg": "/preentrega2romero/static/media/nutrilon.730fcb0ecfefe4cc23e9.jpg",
-    "static/media/bomba-samtronic.jpg": "/preentrega2romero/static/media/bomba-samtronic.4d6522af765e3fdff929.jpg",
+    "main.css": "/preentrega2romero/static/css/main.77ed575a.css",
+    "main.js": "/preentrega2romero/static/js/main.c814dea6.js",
+    "static/media/nutricion.jpg": "/preentrega2romero/static/media/nutricion.ab719f0fba57705d76ea.jpg",
     "static/media/logo.png": "/preentrega2romero/static/media/logo.09b9f799ce1601312ec9.png",
     "index.html": "/preentrega2romero/index.html",
-    "main.f721dac4.css.map": "/preentrega2romero/static/css/main.f721dac4.css.map",
-    "main.038d8e50.js.map": "/preentrega2romero/static/js/main.038d8e50.js.map"
+    "main.77ed575a.css.map": "/preentrega2romero/static/css/main.77ed575a.css.map",
+    "main.c814dea6.js.map": "/preentrega2romero/static/js/main.c814dea6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f721dac4.css",
-    "static/js/main.038d8e50.js"
+    "static/css/main.77ed575a.css",
+    "static/js/main.c814dea6.js"
   ]
 }
